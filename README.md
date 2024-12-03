@@ -26,3 +26,6 @@ print(account.get_balance())  # ➞ 50
 account.withdraw(100)         # ➞ "Insufficient funds"
 print(account.get_balance())  # ➞ 50
 ```
+
+### Note:
+You will __need__ to make use of a default parameter value here to allow the balance to default to zero, refer to this <a href="https://www.w3schools.com/python/python_functions.asp" target="_blank">W3Schools</a> page for more information
