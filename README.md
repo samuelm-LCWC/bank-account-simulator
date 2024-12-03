@@ -1,15 +1,18 @@
 # Bank Account Simulator
 Create a class called Bank_account to simulate bank account operations. The class will have the following attributes:
 
-* Balance - default value of zero (but can start as any other non-negative value)
-* Owner
+* `balance` - default value of zero (but can start as any other non-negative value)
+* `owner`
+
+You __must__ ensure that both of these attributes are _private_
+
+This means you also need to create suitable `get` and `set` methods for each of these.
 
 You will also have three methods that can be carried out:
 
 * deposit
 * withdraw
 * get_balance
- 
 
 ## Examples
 ```
