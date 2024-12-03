@@ -6,27 +6,29 @@ Create a class called Bank_account to simulate bank account operations. The clas
 
 You __must__ ensure that both of these attributes are _private_
 
-This means you also need to create suitable `get` method for both of these attribtues, but only create a `set` method for the owner attribute, as the `deposit` method below will take the place of `set_balance`
+This means you also need to create suitable `get` method for both of these attribtues, but only create a `set` method for the owner attribute, as the `deposit` and `withdraw` methods below will take the place of `set_balance`
 
 You will also have three methods that can be carried out:
 
 * deposit
 * withdraw
 
+The withdraw method should prevent withdrawing an amount greater than the account balance
+
 ## Examples
 ```
-account = BankAccount("Alice")
-print(account.owner)          # ➞ "Alice"
-print(account.get_balance())  # ➞ 0
+account = Bank_account("Alice")
+print(account.get_owner())          # ➞ "Alice"
+print(account.get_balance())        # ➞ 0
 
 account.deposit(100)
-print(account.get_balance())  # ➞ 100
+print(account.get_balance())        # ➞ 100
 
 account.withdraw(50)
-print(account.get_balance())  # ➞ 50
+print(account.get_balance())        # ➞ 50
 
-account.withdraw(100)         # ➞ "Insufficient funds"
-print(account.get_balance())  # ➞ 50
+account.withdraw(100)               # ➞ "Insufficient funds"
+print(account.get_balance())        # ➞ 50
 ```
 
 ### Note:
