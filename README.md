@@ -12,7 +12,6 @@ You will also have three methods that can be carried out:
 
 * deposit
 * withdraw
-* get_balance
 
 ## Examples
 ```
