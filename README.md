@@ -6,7 +6,7 @@ Create a class called Bank_account to simulate bank account operations. The clas
 
 You __must__ ensure that both of these attributes are _private_
 
-This means you also need to create suitable `get` and `set` methods for each of these.
+This means you also need to create suitable `get` method for both of these attribtues, but only create a `set` method for the owner attribute, as the `deposit` method below will take the place of `set_balance`
 
 You will also have three methods that can be carried out:
 
